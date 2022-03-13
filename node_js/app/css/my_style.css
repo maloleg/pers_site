@@ -1,0 +1,107 @@
+cool_class1{
+  font-family: system-ui;
+  font-weight: 900;
+  color: chocolate  !important;
+  text-align: center;
+}
+
+cool_class2{
+  font-family: system-ui;
+  font-weight: 900;
+  color: red  !important;
+  text-align: center;
+  font-size: 120px;
+}
+
+body{
+  text-align: center;
+}
+
+header{
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: #fff;
+  background: #333;
+  text-align: center;
+}
+
+main{
+  text-align: center;
+}
+
+
+cool_class1::selection {
+   color: #ffa;
+   background-color: #0f0  !important;;
+}
+
+cool_class1::after{
+    content: "\a";
+    white-space: pre;
+}
+
+p{
+  text-align: center;
+}
+footer{
+  text-align: center;
+}
+.parent {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  height: 200px;
+  position: static;
+}
+
+
+.parent::after{
+  content: "\a";
+  white-space: pre;
+}
+
+@media
+  (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi) {
+  .img {
+    background-image: url(https://www.exler.ru/img/blog/upload/d3/66/6218af50e7c37.jpg);
+    width: 250px;
+  }
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  text-align: center;
+  margin: 0 auto;
+}
+
+nav.menu{
+  text-align: center;
+  margin: 0 auto;
+}
+
+li {
+  display:inline-block;
+  *display:inline; /*IE7*/
+  *zoom:1; /*IE7*/
+  margin-right:10px;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+body{
+  background-color: #111;
+}
